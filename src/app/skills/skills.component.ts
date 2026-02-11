@@ -18,11 +18,17 @@ export class SkillsComponent implements OnInit {
       level: 'Intermidiate',
       rating: 70,
     },
+    
     {
       name: 'React',
       level: 'Intermidiate',
       rating: 70,
     },
+    {
+  name: 'Next.js, TypeScript',
+  level: 'Intermediate',
+  rating: 70,
+},
     {
       name: 'JAVA',
       level: 'Intermidiate',
@@ -48,6 +54,22 @@ export class SkillsComponent implements OnInit {
       level: 'Intermidiate',
       rating: 70,
     },
+    {
+  name: 'AI API Integration, Prompt Engineering',
+  level: 'Intermediate',
+  rating: 70,
+},
+    {
+  name: 'Git, Docker, CI/CD',
+  level: 'Beginner',
+  rating: 60,
+},
+    {
+  name: 'DSA, OOP, System Design',
+  level: 'Intermediate',
+  rating: 70,
+},
+
   ];
   constructor() {}
 
