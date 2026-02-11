@@ -12,8 +12,8 @@ export class EducationComponent implements OnInit {
     {
       institute: 'K.K.W.I.E.E.R(Nashik)',
       course: 'Master of Computer Applications',
-      duration: 'Pursuing',
-      score: '',
+      duration: '2023-2025',
+      score: '81%',
     },
     {
       institute: 'K.T.H.M college(Nashik)',
