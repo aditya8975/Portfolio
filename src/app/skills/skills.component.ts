@@ -30,8 +30,8 @@ export class SkillsComponent implements OnInit {
     },
      {
       name: 'PHP',
-      level: 'Beginner',
-      rating: 50,
+      level: 'Intermidiate',
+      rating: 70,
     },
     {
       name: 'C',
@@ -44,7 +44,7 @@ export class SkillsComponent implements OnInit {
       rating: 70,
     },
     {
-      name: 'Oracle',
+      name: 'MySql/Oracle',
       level: 'Intermidiate',
       rating: 70,
     },
