@@ -9,7 +9,6 @@ export class PersonalInformationComponent implements OnInit {
   myData: string[][] = [
     ['Name', 'Aditya Katare'],
     ['DOB', '20/01/2002'],
-    ['Work Exp', 'Fresher'],
     ['Education', 'MCA(2025)'],
     ['Interests', 'Problem-solving'],
   ];
