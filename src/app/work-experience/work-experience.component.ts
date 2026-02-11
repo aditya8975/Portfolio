@@ -9,12 +9,15 @@ import { WorkExperience } from '../models/models';
 export class WorkExperienceComponent implements OnInit {
   workExpList: WorkExperience[] = [
     {
-      role: 'Intern',
-      company: 'grow intern',
-      duration: 'Sep 2023 - oct 2023',
+      role: 'React.js & ReactNative Intern',
+      company: 'Samarth IT',
+      duration: 'Jan 2025 - jun 2025',
       description: [
-        'Involved in Full Stack Web Devlopment',
-        'devloping online projects',
+'Developed web and mobile application features using React.js and React Native.',
+'Integrated REST APIs and implemented authentication flows.',
+'Built reusable components and optimized UI performance.',
+'Collaborated in debugging, testing, and deployment processes.',
+
       ],
     },
    
