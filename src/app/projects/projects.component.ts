@@ -8,25 +8,21 @@ import { Project } from '../models/models';
 })
 export class ProjectsComponent implements OnInit {
   projects: Project[] = [
+  
     {
-      title: 'e-commerce',
-      technologies: ' Angular, Angular Material',
-      description: [
-        'Worked to build an e-commerce application using angular ',
-        'Got to learn about Angular Material and Services',
-        'Learned Typescript to build an webapp.',
-      ],
-      link:'https://adityaaecommerce.netlify.app/'
-    },
-    {
-      title: 'Portfolio',
+      title: 'akManager',
       technologies: 'Angular ,Angular Material',
       description: [
-        'Worked to build an Portfolio using angular ',
-        'Got to learn about Angular Material',
-        'Learned Typescript to build an Portfolio.',
+        'akmanager - The Fastest JS Package Manager Installs packages 10x faster using prebuilt cache and Bun for instant setups. ',
+        'akmanager speeds up package installations by:
+1️⃣ Using Bun as the backend - Faster than npm & yarn
+2️⃣ Preloading Popular Packages - Avoids network downloads
+3️⃣ Parallel Processing - Installs multiple packages simultaneously
+4️⃣ Smart Caching - Installs from a local store instead of fetching from the internet
+5️⃣ Compressed Prebuilt Package Cache - Extracts prebuilt dependencies for instant setup',
+        
       ],
-      link:'https://adityakatareport.netlify.app/'
+      link:'https://akmanager-site.vercel.app/'
     },
 
  
@@ -40,36 +36,30 @@ export class ProjectsComponent implements OnInit {
       ],
       link:'https://github.com/aditya8975/ChessGame'
     },
-    {
-      title: 'SpaceWeb',
-      technologies: 'Angular',
-      description: [
-        'Worked on Space WebApp to serve info about space and space releated stuff',
-        'Learned Frontend Devlopment & responsive web.',
-        
-      ],
-      link:'https://github.com/aditya8975/2thespace'
-    },
     
     {
-      title: 'Shell',
+      title: 'Akomponent-lib',
       technologies: 'C, C++',
       description: [
-        'Worked to build Shell ',
-        'Got to learn about kernel and Shell Scripting',
-        'Learned C, C++ to build an Shell.',
+        'AKomponents Library is a lightweight, customizable React UI library with modern, responsive components. ',
+        'Designed for performance and ease of use, it includes buttons, cards, forms, navigation, and more',
+        '✅ Prebuilt, Reusable UI Components 🎨
+✅ Fully Customizable & Responsive 📱
+✅ Optimized for Performance & Accessibility ⚡
+✅ Works Seamlessly with React & Tailwind CSS 🔥
+✅ Minimal Dependencies for Faster Load Times 🏎️',
       ],
-      link:'https://github.com/aditya8975/proj/tree/main'
+      link:'https://akomponent-site.vercel.app/'
     },
-    {
-      title: '4K Hospital',
-      technologies: 'HTML, CSS, JS',
+     {
+      title: 'e-commerce',
+      technologies: ' Angular, Angular Material',
       description: [
-        'Worked on Hospital Manegment Website ',
-        'Learned Frontend Devlopment & local Storage.',
-        
+        'Worked to build an e-commerce application using angular ',
+        'Got to learn about Angular Material and Services',
+        'Learned Typescript to build an webapp.',
       ],
-      link:'https://github.com/aditya8975/HospitalMSystem'
+      link:'https://adityaaecommerce.netlify.app/'
     },
   ];
   constructor() {}
