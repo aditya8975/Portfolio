@@ -10,20 +10,18 @@ export class ProjectsComponent implements OnInit {
   projects: Project[] = [
   
     {
-      title: 'akManager',
-      technologies: 'TypeScript , BatchFile',
-      description: [
-        'akmanager - The Fastest JS Package Manager Installs packages 10x faster using prebuilt cache and Bun for instant setups.',
-        'akmanager speeds up package installations by:',
-️'Using Bun as the backend - Faster than npm & yarn',
-  ️'Preloading Popular Packages - Avoids network downloads',
-️'Parallel Processing - Installs multiple packages simultaneously',
-️'Smart Caching - Installs from a local store instead of fetching from the internet',
-️'Compressed Prebuilt Package Cache - Extracts prebuilt dependencies for instant setup',
-        
-      ],
-      link:'https://akmanager-site.vercel.app/'
-    },
+  title: 'akManager',
+  technologies: 'TypeScript, BatchFile',
+  description: [
+    'akmanager - The Fastest JS Package Manager. Installs packages 10x faster using prebuilt cache and Bun for instant setups.',
+    'Uses Bun as backend - Faster than npm & yarn',
+    'Preloads popular packages to avoid network downloads',
+    'Parallel processing - Installs multiple packages simultaneously',
+    'Smart caching - Installs from local store instead of fetching from internet',
+    'Compressed prebuilt package cache for instant setup'
+  ],
+  link: 'https://akmanager-site.vercel.app/'
+},
 
  
     {
