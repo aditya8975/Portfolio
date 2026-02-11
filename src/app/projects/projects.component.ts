@@ -11,7 +11,7 @@ export class ProjectsComponent implements OnInit {
   
     {
       title: 'akManager',
-      technologies: 'Angular ,Angular Material',
+      technologies: 'TypeScript , BatchFile',
       description: [
         'akmanager - The Fastest JS Package Manager Installs packages 10x faster using prebuilt cache and Bun for instant setups. ',
         'akmanager speeds up package installations by:
@@ -39,7 +39,7 @@ export class ProjectsComponent implements OnInit {
     
     {
       title: 'Akomponent-lib',
-      technologies: 'C, C++',
+      technologies: 'Js ',
       description: [
         'AKomponents Library is a lightweight, customizable React UI library with modern, responsive components. ',
         'Designed for performance and ease of use, it includes buttons, cards, forms, navigation, and more',
