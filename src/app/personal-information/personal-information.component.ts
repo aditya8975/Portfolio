@@ -10,15 +10,16 @@ export class PersonalInformationComponent implements OnInit {
     ['Name', 'Aditya Katare'],
     ['DOB', '20/01/2002'],
     ['Work Exp', 'Fresher'],
-    ['Education', 'Bcs(2023)'],
+    ['Education', 'MCA(2025)'],
     ['Interests', 'Problem-solving'],
   ];
 
   aboutMe: string[] = [
-    "Hi, I'm a first-year MCA student at K. K. Wagh Institute of Engineering Education.",
-    'My interests lie in solving Data Structures and Algorithms (DSA) problems, Web Development.',
-    "I'm proficient in coding using Java and I have worked with frontend frameworks like Angular and React.",
-     "I also have hands-on experience working with Node.js, Express, and MongoDB for backend development.",
+    'MCA graduate specializing in Full Stack Development with expertise in React.js, Next.js, and Node.js.',
+    'Experienced in building scalable web and mobile applications, integrating REST APIs, and optimizing performance-driven systems.',
+  'Strong foundation in database design and modern development workflows.',
+    'My interests lie in solving Data Structures and Algorithms (DSA) problems',
+
   ];
 
   constructor() {}
